@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Intro Section With Dropdown"/>
+        <title>Intro Section With Dropdown</title>
+        <link rel="stylesheet" href="intro-dropdown-css.css"/>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.svg" alt="Snap logo"/>
+            <div class="nav-container" data-mobile-nav>
+                <div class="info-container">
+                    <div class="dropdown" data-dropdown>
+                        <button class="dropdown-link" data-dropdown-button>Features</button>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-div">
+                                <img src="images/icon-todo.svg" alt="Todo icon"/>
+                                <a href="#" class="link">Todo List</a>
+                            </div>
+                            <div class="dropdown-div">
+                                <img src="images/icon-calendar.svg" alt="calendar icon"/>
+                                <a href="#" class="link">Calendar</a>
+                            </div>
+                            <div class="dropdown-div">
+                                <img src="images/icon-reminders.svg" alt="reminder icon"/>
+                                <a href="#" class="link">Reminders</a>
+                            </div>
+                            <div class="dropdown-div">
+                                <img src="images/icon-planning.svg" alt="planning icon"/>
+                                <a href="#" class="link">Planning</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dropdown" data-dropdown>
+                        <button class="dropdown-link" data-dropdown-button>Company</button>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-div">
+                                <a href="#" class="company-link">History</a>
+                            </div>
+                            <div class="dropdown-div">
+                                <a href="#" class="company-link">Our Team</a>
+                            </div>
+                            <div class="dropdown-div">
+                                <a href="#" class="company-link">Blog</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="link">Careers</a>
+                    <a href="#" class="link">About</a>
+                </div>
+                <div class="login-container">
+                    <button class="login-btn">Login</button>
+                    <button class="register-btn">Register</button>
+                </div>                
+            </div>
+            <div class="dimmer" data-mobile-nav></div> 
+            <div class="hamburger" data-mobile-nav>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div> 
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="intro-container">
+                    <h1 class="headline">Make remote work</h1>
+                    <p class="subheadline">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+                    <button class="learn-btn">Learn more</button>
+                    <div class="logo-container">
+                        <img class="logo" src="images/client-databiz.svg" alt="databiz logo"/>
+                        <img class="logo" src="images/client-audiophile.svg" alt="audiophile logo"/>
+                        <img class="logo" src="images/client-meet.svg" alt="meet logo"/>
+                        <img class="logo" src="images/client-maker.svg" alt="maker logo"/>
+                    </div>
+                </div>
+                <div class="intro-container">
+                    <img  id="hero-image" src="images/image-hero-desktop.png" alt="picture of a man using a laptop"/>
+                    <img id="mobile-hero-image" src="images/image-hero-mobile.png" alt="picture of a man using a laptop"/>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script src="intro-dropdown-js.js"></script>
+</html>
